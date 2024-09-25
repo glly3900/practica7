@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @est %>
+
+<div>
+  <%= link_to "Edit this est", edit_est_path(@est) %> |
+  <%= link_to "Back to ests", ests_path %>
+
+  <%= button_to "Destroy this est", @est, method: :delete %>
+</div>
